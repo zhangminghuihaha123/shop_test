@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+
+</head>
+<body>
+<h1>注册成功!</h1>
+<br>
+<!--/*@thymesVar id="usermessage" type="MavenWrapperDownloader"*/-->
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前登录用户为：<td th:text="${usermessage}">未找到用户</td>
+<br>
+<br>
+欢迎您的使用，使用愉快！
+<br>
+<br>
+<form action="登录" method="post">
+    <button type="submit">返回登录界面</button>
+</form>
+&nbsp;&nbsp;&nbsp;
+<form action="退出登录" method="post">
+    <button type="submit">退出登录</button>
+</form>
+<br>
+</body>
+</html>

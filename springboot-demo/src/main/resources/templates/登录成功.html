@@ -1,0 +1,35 @@
+<html xml:base="index.html">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+
+</head>
+<body>
+<h1>登录成功</h1>
+
+<br>
+<br>
+欢迎您的使用，使用愉快！
+<br>
+请核对您的信息是否正确!
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您的用户名为:<!--/*@thymesVar id="message_username" type="MavenWrapperDownloader"*/-->
+<td th:text="${message_username}"></td><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您的密码为:<!--/*@thymesVar id="message_password" type="MavenWrapperDownloader"*/-->
+<td th:text="${message_password}"></td><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您的年龄为:<!--/*@thymesVar id="message_age" type="MavenWrapperDownloader"*/-->
+<td th:text="${message_age}"></td><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您的账户余额为:<!--/*@thymesVar id="message_money" type="MavenWrapperDownloader"*/-->
+<td th:text="${message_money}"></td><br><br>
+<br>
+<form action="进入商场" method="post">
+    <button type="submit">进入商场</button>
+</form>
+&nbsp;&nbsp;&nbsp;
+<form action="退出登录" method="post">
+    <button type="submit">退出登录</button>
+</form>
+<br>
+</body>
+</html>

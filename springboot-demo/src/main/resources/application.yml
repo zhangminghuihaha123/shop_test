@@ -1,0 +1,22 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/shop?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+
+  thymeleaf:
+    mode: HTML
+    encoding: UTF-8
+    cache: false
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
+    static-path-pattern: /**
+
+mybatis:
+  type-aliases-package: com.protest.springbootdemo.po
+  mapper-locations: classpath:/mapper/*.xml

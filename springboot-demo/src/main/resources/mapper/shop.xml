@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.protest.springbootdemo.dao.UserDao">
+    <select id="userdao" parameterType="string" resultType="com.protest.springbootdemo.po.User">
+         insert into shop_user
+        (UserName, PassWord, Age, Money)
+         VALUES
+        (#{username},#{password},#{age},#{money});
+    </select>
+
+    <select id="usershop" parameterType="string" resultType="com.protest.springbootdemo.po.User">
+        select * from shop_user where UserName=#{username};
+    </select>
+
+    <select id="userupdatecost" parameterType="string" resultType="com.protest.springbootdemo.po.User">
+           update shop_user set Money =#{money} where UserName =#{username};
+    </select>
+
+    <select id="userchaxun" parameterType="string" resultType="com.protest.springbootdemo.po.User">
+        select * from shop_user where UserName=#{username};
+    </select>
+
+    <select id="xiugaimima" parameterType="string" resultType="com.protest.springbootdemo.po.User">
+        update  shop_user set PassWord =#{password} where UserName =#{username};
+    </select>
+
+    <select id="chaxunguanliyuan" parameterType="string" resultType="com.protest.springbootdemo.po.admin">
+        select * from admin where UserName=#{username};
+    </select>
+
+    <select id="alluser" parameterType="int" resultType="com.protest.springbootdemo.po.User">
+        select * from shop_user limit #{number},1;
+    </select>
+
+    <select id="countuser" parameterType="int" resultType="int">
+        select count(*) from shop_user;
+    </select>
+
+    <select id="deleteuser" parameterType="string" resultType="com.protest.springbootdemo.po.User">
+        delete from shop_user where UserName=#{username};
+    </select>
+
+    <select id="chaxunshoplist" parameterType="string" resultType="int">
+        select count(*) from shop_list where UserName =#{username};
+    </select>
+
+    <select id="addshoplist" parameterType="string" resultType="com.protest.springbootdemo.po.shop">
+        insert into shop_list
+        (UserName, ShopList)
+        values
+        (#{username},#{shoplist});
+    </select>
+
+    <select id="updateshoplist" parameterType="string" resultType="com.protest.springbootdemo.po.shop">
+        update shop_list set ShopList =#{shoplist} where UserName =#{username};
+    </select>
+
+    <select id="showshoplist" parameterType="int" resultType="com.protest.springbootdemo.po.shop">
+        select * from shop_list limit #{number},1;
+    </select>
+
+    <select id="deleteshoplist" parameterType="string" resultType="com.protest.springbootdemo.po.shop">
+        delete from shop_list where UserName= #{username};
+    </select>
+</mapper>

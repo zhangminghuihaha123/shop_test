@@ -1,0 +1,27 @@
+server:
+  port: 8001
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mysql_user?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+  redis:
+    host: 127.0.0.1
+    port: 6379
+
+  thymeleaf:
+    mode: HTML
+    encoding: UTF-8
+    cache: false
+
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
+    static-path-pattern: /**
+
+mybatis:
+  type-aliases-package: com.example.redis01.pojo
+  mapper-locations: classpath:/mapper/*.xml

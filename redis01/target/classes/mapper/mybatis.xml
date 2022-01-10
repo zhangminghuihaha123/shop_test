@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.redis01.dao.MyDao">
+          <select id="adduser" parameterType="string" resultType="user_np">
+                   insert into user_np (name, password, number) VALUES (#{name},#{password},#{numb});
+          </select>
+
+    <select id="select" parameterType="string" resultType="user_np">
+        select * from user_np where name=#{name};
+    </select>
+
+
+</mapper>

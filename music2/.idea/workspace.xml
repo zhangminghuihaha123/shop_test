@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8bee21f-9413-41af-9372-e68d54a7c176" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="21X2cyFhfToj2kl1xmQTxbQF7Yc" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../redis/redis01" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.27816093" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.provider_8002">
+    <configuration name="Cousumer_8003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="music-cousumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zmh.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zmh.springcloud.Cousumer_8003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dashboard_9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="music-dashboard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zmh.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zmh.springcloud.Dashboard_9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka_8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="music-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zmh.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zmh.springcloud.Eureka_8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zuul_9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="music-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zmh.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zmh.springcloud.Zuul_9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="provider_8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="music-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zmh.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zmh.springcloud.provider_8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.provider_8002" />
+        <item itemvalue="Spring Boot.Dashboard_9001" />
+        <item itemvalue="Spring Boot.Eureka_8001" />
+        <item itemvalue="Spring Boot.Zuul_9527" />
+        <item itemvalue="Spring Boot.Cousumer_8003" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8bee21f-9413-41af-9372-e68d54a7c176" name="Default Changelist" comment="" />
+      <created>1638073194796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638073194796</updated>
+      <workItem from="1638073198130" duration="11533000" />
+      <workItem from="1638085666721" duration="22000" />
+      <workItem from="1638085768814" duration="48000" />
+      <workItem from="1638167223664" duration="64000" />
+      <workItem from="1639446198394" duration="12000" />
+      <workItem from="1639988368841" duration="272000" />
+      <workItem from="1640166104879" duration="23000" />
+      <workItem from="1641815552566" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="590" y="114" key="#Eureka_8001" timestamp="1638085787667">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="590" y="114" key="#Eureka_8001/0.0.1920.1040@0.0.1920.1040" timestamp="1638085787667" />
+    <state x="440" y="94" key="#Project_Structure" timestamp="1639988462047">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1639988462047" />
+    <state x="999" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1638073986124">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="999" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1638073986124" />
+    <state x="864" y="451" key="#com.intellij.ide.util.MemberChooser" timestamp="1638077407214">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="864" y="451" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1638077407214" />
+    <state x="1012" y="342" key="FileChooserDialogImpl" timestamp="1641815570686">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="1012" y="342" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1641815570686" />
+    <state x="1012" y="345" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1639446208779" />
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1639988642754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1639988642754" />
+    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1639988642754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="260" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1639988642754" />
+    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1639988642754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="260" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1639988642754" />
+    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1639988642754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="260" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1639988642754" />
+    <state width="1877" height="260" key="GridCell.Tab.1.bottom" timestamp="1639988642754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="260" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1639988642754" />
+    <state width="1877" height="260" key="GridCell.Tab.1.center" timestamp="1639988642754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="260" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1639988642754" />
+    <state width="1877" height="260" key="GridCell.Tab.1.left" timestamp="1639988642754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="260" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1639988642754" />
+    <state width="1877" height="260" key="GridCell.Tab.1.right" timestamp="1639988642754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="260" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1639988642754" />
+    <state x="0" y="350" key="Maven.ArtifactSearchDialog" timestamp="1638077150565">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="350" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1638077150565" />
+    <state x="784" y="255" width="998" height="708" key="SettingsEditor" timestamp="1638085800860">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="784" y="255" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1638085800860" />
+    <state x="548" y="213" key="new project wizard" timestamp="1638167286181">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="548" y="213" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1638167286181" />
+  </component>
+</project>

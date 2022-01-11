@@ -1,0 +1,11 @@
+server:
+  port: 9001
+
+#eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+  instance:
+    instance-id:  music-dashboard
+    prefer-ip-address: true

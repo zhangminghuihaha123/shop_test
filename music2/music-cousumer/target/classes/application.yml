@@ -1,0 +1,27 @@
+server:
+  port: 8003
+
+
+#eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+  instance:
+    instance-id:  music-cousumer
+    prefer-ip-address: true
+
+#开启降级
+feign:
+  hystrix:
+    enabled: true
+
+spring:
+  application:
+    name: music-cousumer
+
+
+#info配置
+info:
+  app.name: zmh-springcloud
+  company.name: blog.zmhstudy.com

@@ -1,0 +1,23 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: springcloud-zuul
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka
+  instance:
+    instance-id: zuul9527.com
+    prefer-ip-address: true
+
+info:
+  app.name: kuang
+  company.name: zhangminghui.com
+
+zuul:
+  routes:
+    music.serviceId: SPRINGCLOUD-PROVIDER
+    music.path: /music/**
